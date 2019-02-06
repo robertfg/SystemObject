@@ -10,12 +10,15 @@ namespace SystemObject
     {
         static void Main(string[] args)
         {
-            // The code provided will print ‘Hello World’ to the console.
-            // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
-            Console.WriteLine("Hello World!");
-            Console.ReadKey();
+            Shoe s = new Shoe();
 
-            // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
+            Console.WriteLine(s.ToString());
+            Console.WriteLine(new System.Random().ToString());
+            Console.WriteLine(5.GetType());
+            Console.WriteLine(5.ToString());
+            Console.WriteLine("A" + 5);
+
+            Console.ReadLine();
         }
     }
 }
